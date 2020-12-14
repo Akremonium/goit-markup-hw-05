@@ -53,14 +53,14 @@
                 <button class="button" href="#" data-modal-open>Заказать услугу</button>
             </div>
         </section>
-        <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-            <button class="button-close" data-modal-close>
-                <svg class="icon" width="11px" height="11px">
-                    <use href="./images/sprite.svg#close-kross"></use>
-                </svg>
-            </button>
-        </div>
+        <div class="backdrop is-hidden transition" data-modal>
+            <div class="modal transition">
+                <button class="button-close" data-modal-close>
+                    <svg class="icon" width="11px" height="11px">
+                        <use href="./images/sprite.svg#close-kross"></use>
+                    </svg>
+                </button>
+            </div>
         </div>
         <section class="preferences">
             <h2 class="visually-hidden">Преимущества</h2>
@@ -109,9 +109,18 @@
             <div class="container">
                 <h2 class="title-h2">Чем мы занимаемся</h2>
                 <ul class="examples list">
-                    <li class="examples-item"><img class="card-img" src="./images/Программируем.jpg" width="370" alt="Адаптируем"></li>
-                    <li class="examples-item"><img class="card-img" src="./images/Адапптируем.jpg" width="370" alt="Дизайн"></li>
-                    <li class="examples-item"><img class="card-img" src="./images/Дизайн.jpg" width="370" alt="Программируем"></li>
+                    <li class="examples-item">
+                        <img class="card-img" src="./images/Программируем.jpg" width="370" alt="Адаптируем">
+                        <p class="examples-text">десктопные приложения</p>
+                    </li>
+                    <li class="examples-item">
+                        <img class="card-img" src="./images/Адапптируем.jpg" width="370" alt="Дизайн">
+                        <p class="examples-text">мобильные приложения</p>
+                    </li>
+                    <li class="examples-item">
+                        <img class="card-img" src="./images/Дизайн.jpg" width="370" alt="Программируем">
+                        <p class="examples-text">дизайнерские решения</p>
+                    </li>
                 </ul>
             </div>
         </section>
